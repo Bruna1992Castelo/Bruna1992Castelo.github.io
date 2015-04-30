@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Anton);
 body {
    margin:0;
-   /*background-image:url("img/bg.jpg") repeat scroll 0px 0px transparent;*/
+   background-image:url("img/bg.jpg") repeat scroll 0px 0px transparent;
 }	
 
 a { color: #333; }
