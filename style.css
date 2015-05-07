@@ -5,22 +5,12 @@ body {
    background-image: url("img/bg.jpg");
 }	
 
-a { color: #333; }
-
-.asterisco { transition: all 0.5s ease; }
-
-a:hover .asterisco { transform: rotate(360deg); }
-
-.texto { transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550); }
-
-.texto:houver { transform: scale(1.2); }
-
 #recipiente{
 	width: 1150px;
 	margin-right: auto;
 	margin-left: auto;
-	position: relative;
-	height: 100%;
+	border: 2px solid #D3D3D3;
+	/*height: 100%;*/
 }
 
 #cabecalho{
@@ -34,8 +24,11 @@ a:hover .asterisco { transform: rotate(360deg); }
 }
 		
 #conteudo{
-	border: 2px solid #D3D3D3;
+	/*border: 2px solid #D3D3D3;*/
 	position: relative;
+	padding-left: 10px;
+	background-color: white;
+
 }
 
 #conteudo img{
@@ -63,7 +56,7 @@ ul li {
 }
  
 li a {
-color: red;
+	color: red;
     /*color: #544738;*/
     text-decoration: none;
     float: left;
